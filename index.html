@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head> 
-     <meta charset="UTF-8">
-     <meta name="description" content="Curso práctico de maquetación">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Mi Blog</title>
-     <link rel="stylesheet" href="./styles/main.css">
-    </head>
-    <body>
-        <header>
-            <section class="header-icons-container">
-                <div class="icons">
-                    <a class="icons--facebook" href="">Facebook</a>
-                    <a class="icons--twitter" href="">Twitter</a>
-                    <a class="icons--instagram" href="">Instagram</a>
-                    <a class="icons--linkedin" href="">Linkedin</a>
-                    <a class="icons--youtube" href="">Youtube</a>
-                </div>
-            </section>
-            <nav class="header-logo-container">
-                <section class="nav-logo-container">
-                    <a href="/">Logo</a>
-                </section>
-                <section class="profile-link">
-                    <a  href="perfil.html">Sobre mí</a>
-                </section>
-            </nav>
-        </header>
-    </body>
-</html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Federico's website. Web developer, software engineer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Marroquín</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main/main.css">
+    <link rel="stylesheet" href="./styles/main/main-tablet.css" media="(min-width:750px)">
+    <link rel="stylesheet" href="./styles/main/main-desktop.css" media="(min-width:1280px)">
+    <link rel="stylesheet" href="./styles/font/flaticon.css">
+
+</head>
+
+<body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><span class="flaticon-001-facebook"></span></a>
+                <a href="/"><span class="flaticon-002-twitter"></span></a>
+                <a href="/"><span class="flaticon-011-instagram"></span></a>
+                <a href="/"><span class="flaticon-010-linkedin"></span></a>
+                <a href="/"><span class="flaticon-008-youtube"></span></a>
+            </div>
+        </section>
+        <nav class="header-logo-container">
+            <section class="nav-logo-container">
+                <a href="/" alt="logo principal">
+                    <img src="assets/img/logo-min.png" alt="logo version 1" />
+                    <img src="assets/img/logo-name.png" alt=" logo solo nombre" />
+                </a>
+            </section>
+            <section class="profile-link">
+                <a href="perfil.html">About me</a>
+            </section>
+        </nav>
+    </header>
+    <main class="home-main">
+        <section></section>
+        <section class="main-container">
+            <h1>Hi, I'm Fede. Web developer and a Musician in progress...</h1>
+            <a class="main-container--button" href="projects.html">Look at my work!</a>
+        </section>
+    </main>
+</body>
+
+</html>

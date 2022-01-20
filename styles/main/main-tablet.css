@@ -1,0 +1,4 @@
+nav .nav-logo-container img:nth-child(2){
+    display: inline;
+    width: 200px;
+}
