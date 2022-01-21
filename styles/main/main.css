@@ -175,8 +175,6 @@ nav .profile-link a {
 
 .profile-body .portfolio-main-relevant {
     background-image: url('../../assets/img/profile-pic.jpg');
-    /* -webkit-box-shadow: inset 0px 0px 50px 30px #000000;
-    box-shadow: inset 0px 0px 50px 30px #000000; */
     -webkit-box-shadow: inset 0px -50px 45px 2px #000000;
     box-shadow: inset 0px -50px 45px 2px #000000;
     text-shadow: 2px 0px 5px #000000;
@@ -227,6 +225,7 @@ nav .profile-link a {
     border-radius: 5px;
     font-size: 0.9rem;
     color: var(--just-white);
+    text-shadow: none;
 }
 
 .portfolio-button:hover {

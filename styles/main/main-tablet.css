@@ -67,6 +67,7 @@ nav .nav-logo-container img:nth-child(2) {
 .portfolio-relevant-container .portfolio-button {
     color: var(--just-white);
     border-color: var(--lavander-web);
+    text-shadow: none;
 }
 
 .portfolio-relevant-container .portfolio-button:hover {
