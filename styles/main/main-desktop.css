@@ -1,0 +1,6 @@
+.profile-body .portfolio-relevant-img-container{
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    max-width: 450px;
+}
